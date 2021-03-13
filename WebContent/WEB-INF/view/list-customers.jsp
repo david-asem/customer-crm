@@ -1,4 +1,4 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
 <!DOCTYPE html>
 
@@ -7,6 +7,13 @@
 <head>
 
 <title>Customer Database For CRM</title>
+
+
+
+
+	<link type="text/css" href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet">
+
+
 </head>
 
 <body>
