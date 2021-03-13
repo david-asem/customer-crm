@@ -25,6 +25,10 @@
 			<div id="container">
 				<div id="content">
 
+
+					<input type = "button"  value ="Add New Customer"
+					onclick = "window.location.href= 'showFormForAdd'; return false;" class ="add-button" />
+
 					<table class="styled-table">
 						<thead>
 							<tr>
