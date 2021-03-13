@@ -17,11 +17,10 @@ public class CustomerDAOImplementation implements CustomerDAO {
 	// need to inject the hibernate session factory
 
 	@Autowired
-
 	private SessionFactory sessionFactory;
 
 	@Override
-	@Transactional
+
 	public List<Customer> getCustomers() {
 
 		// get current hibernate session
